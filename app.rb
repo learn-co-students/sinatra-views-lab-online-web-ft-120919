@@ -2,7 +2,18 @@ class App < Sinatra::Base
 
 	get '/' do
 		erb :index
-	end
+	end #get /
 
+	get '/hello' do
+		erb :hello
+	end #get /hello
 
-end
+	get '/goodbye' do
+		erb :goodbye
+	end #get /goodbye
+
+	get '/date' do
+		erb :date
+	end #get /date
+
+end #class
