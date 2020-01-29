@@ -1,3 +1,4 @@
+require 'date'
 class App < Sinatra::Base
 
 	get '/' do
@@ -13,6 +14,7 @@ class App < Sinatra::Base
 	end
 
 	get '/date' do
+		# binding.pry
 		erb :date
 	end
 
