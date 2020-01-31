@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <%= today = time.new %>
   <body>
-    <h1>The date is <%= today.inspect %></h1>
+    <p> The date is <%= Date.today.strftime("%A, %B %d, %Y") %></p>
   </body>
 </html>  
