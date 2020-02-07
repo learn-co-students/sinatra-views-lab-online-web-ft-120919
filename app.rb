@@ -12,7 +12,4 @@ class App < Sinatra::Base
 	get '/date' do 
 		erb :date
 	end 
-	yield I'm not hard coding the date for you 
-	
-
 end
